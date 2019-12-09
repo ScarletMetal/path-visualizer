@@ -62,6 +62,6 @@ public class Waypoint {
 
     public void draw(ShapeRenderer renderer) {
         System.out.println("drawing on (" + x + "," + y + ")");
-        renderer.rect((float)x , (float) y, 5, 5);
+        renderer.ellipse((float)x , (float) y, 15, 30, (float) angle);
     }
 }
